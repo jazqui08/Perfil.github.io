@@ -173,6 +173,16 @@
             .timeline-item { padding-left: 40px; }
         }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6FXJJLGVE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q6FXJJLGVE');
+    </script>
+    </style>
 </head>
 <body>
     <div class="container" id="resume-content">
@@ -349,16 +359,7 @@
                             margin: 2px; 
                             font-size: 0.9em;
                         }
-                    </style>
-                    <!-- Google tag (gtag.js) -->
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6FXJJLGVE"></script>
-                    <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-
-                        gtag('config', 'G-Q6FXJJLGVE');
-                    </script>
+                    
                 </head>
                 <body>
                     ${document.getElementById('resume-content').innerHTML}
