@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida | [Tu Nombre] - Arquitecta de Soluciones</title>
+    <title>Hoja de Vida | Jazmín Quijano - Arquitecta de Soluciones</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -327,7 +327,7 @@
             const element = document.getElementById('resume-content');
             const opt = {
                 margin: 10,
-                filename: 'CV_[Tu_Nombre].pdf',
+                filename: 'CV_JQS.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
                 html2canvas: { 
                     scale: 2,
@@ -372,7 +372,7 @@
             
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'CV_[Tu_Nombre].doc';
+            a.download = 'CV_JQS.doc';
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
